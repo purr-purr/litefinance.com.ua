@@ -16,6 +16,8 @@
 	flex-direction: column;
 	text-align: left;
 	width: 50%;
+	position: relative;
+	z-index: 2;
 
 	@include media($mobile-bp) {
 		align-items: center;
