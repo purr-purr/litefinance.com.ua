@@ -71,9 +71,14 @@
 		}
 	}
 
+	@include media($laptop-bp) {
+		max-width: 50%;
+	}
+
 	@include media($mobile-bp) {
 		border-radius: 40px;
 		width: auto;
+		max-width: unset;
 	}
 
 	img {
