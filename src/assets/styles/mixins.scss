@@ -1,0 +1,41 @@
+@use 'sass:list';
+
+@mixin media($breakpoint, $direction: max) {
+	$local-breakpoint: $breakpoint;
+
+	@if $direction == min {
+		$local-breakpoint: $breakpoint + 1;
+	}
+
+	@media only screen and (#{$direction}-width: $local-breakpoint) {
+		@content;
+	}
+}
+
+@mixin flex($align: null, $justify: null, $gap: null) {
+	display: flex;
+
+	@if $align != null {
+		align-items: $align;
+	}
+
+	@if $justify != null {
+		justify-content: $justify;
+	}
+
+	@if $gap != null {
+		gap: $gap;
+	}
+}
+
+@mixin pseudo($location: before, $pos-relative: true) {
+	@if $pos-relative != false {
+		position: relative;
+	}
+
+	&::#{$location} {
+		content: '';
+		position: absolute;
+		@content;
+	}
+}

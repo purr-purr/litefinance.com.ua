@@ -1,0 +1,28 @@
+.container {
+	max-width: 335px;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--bold-text);
+
+	@include media($mobile-bp) {
+		font-size: 26px;
+	}
+
+	@include pseudo(before) {
+		left: -185px;
+		top: -260px;
+		width: 601px;
+		height: 558px;
+		background: url('../../assets/block-sub-title-blur.svg') no-repeat center/100%;
+		z-index: -1;
+
+		@include media($mobile-bp) {
+			left: -165px;
+			top: -200px;
+			width: 420px;
+			height: 444px;
+		}
+	}
+}

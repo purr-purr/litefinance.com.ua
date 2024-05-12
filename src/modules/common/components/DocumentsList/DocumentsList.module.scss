@@ -1,0 +1,24 @@
+.container {
+	all: unset;
+	list-style-type: none;
+}
+
+.item {
+	margin-bottom: 14px;
+
+	a {
+		@include flex($align: center);
+		text-decoration: none;
+	}
+
+	img {
+		display: block;
+		width: 24px;
+		height: 24px;
+		margin-right: 4px;
+	}
+}
+
+.groupTitle {
+	color: var(--main-text);
+}

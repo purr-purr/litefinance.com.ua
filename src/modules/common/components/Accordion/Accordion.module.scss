@@ -1,0 +1,55 @@
+.container {
+	width: 100%;
+
+	@include pseudo(after) {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 1px;
+		background-color: var(--main-text);
+	}
+
+	&[open] .heading:before {
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+	}
+}
+
+.heading {
+	cursor: pointer;
+	color: var(--bold-text);
+	font-size: 20px;
+	font-weight: 600;
+	padding-block: 16px;
+	padding-left: 20px;
+
+	@include media($mobile-bp) {
+		font-size: 18px;
+	}
+
+	@include pseudo(after) {
+		right: 0;
+		bottom: 24px;
+		width: 15px;
+		height: 3px;
+		background-color: var(--bold-text);
+	}
+
+	@include pseudo(before, false) {
+		right: 6px;
+		bottom: 18px;
+		width: 3px;
+		height: 15px;
+		background-color: var(--bold-text);
+		opacity: 1;
+		transition: opacity 0.3s ease-in-out;
+	}
+}
+
+.title {
+
+}
+
+.content {
+	padding-bottom: 16px;
+}

@@ -1,0 +1,62 @@
+.container {
+	@include flex($align: center, $gap: 40px);
+	list-style-type: none;
+
+	@include media($laptop-bp) {
+		display: none;
+	}
+
+	&.active {
+		display: block;
+		position: absolute;
+		width: calc(100% + 40px);
+		height: 100vh;
+		background-color: var(--main-bg);
+		left: -20px;
+		top: 0;
+		padding-top: 80px;
+		padding-left: 40px;
+		z-index: 1;
+	}
+}
+
+.box {
+	width: max-content;
+}
+
+.link {
+	all: unset;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--bold-text);
+
+	@include pseudo(after) {
+		right: 0;
+		bottom: -4px;
+		width: 0;
+		height: 1px;
+		background-color: var(--bold-text);
+		transition: width 0.3s ease-in-out;
+	}
+
+	@include media($laptop-bp) {
+		display: block;
+		width: fit-content;
+		margin-bottom: 14px;
+	}
+
+	@include media($mobile-bp) {
+		font-size: 18px;
+	}
+
+	&:hover,
+	&.active {
+		color: var(--bold-text);
+
+		&:after {
+			width: 100%;
+			transition: width 0.3s ease-in-out;
+		}
+	}
+}

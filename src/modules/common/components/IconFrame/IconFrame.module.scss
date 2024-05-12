@@ -1,0 +1,13 @@
+.container {
+	@include flex($align: center, $justify: center);
+	width: 64px;
+	min-width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: var(--primary);
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}

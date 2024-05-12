@@ -1,0 +1,23 @@
+.container {
+	@include flex($justify: space-between);
+	padding-top: 24px;
+	padding-bottom: 50px;
+
+	@include media($mobile-bp) {
+		padding-top: 50px;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
+
+	a {
+		all: unset;
+		cursor: pointer;
+		font-weight: 700;
+	}
+
+	p,
+	a {
+		color: var(--main-text);
+	}
+}

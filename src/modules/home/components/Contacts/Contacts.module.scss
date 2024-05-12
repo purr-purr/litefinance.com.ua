@@ -1,0 +1,67 @@
+.container {
+	margin-bottom: 75px;
+
+	@include media($mobile-bp) {
+		margin-bottom: 35px;
+	}
+}
+
+.map {
+	width: 100%;
+	height: 400px;
+	border-radius: 70px;
+	overflow: hidden;
+	filter: brightness(0.7);
+	transition: filter 0.4s ease-in-out;
+
+	@include media($mobile-bp) {
+		height: 300px;
+		border-radius: 40px;
+	}
+
+	&:hover {
+		filter: brightness(1);
+		transition: filter 0.4s ease-in-out;
+	}
+
+	&Frame {
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+}
+
+.contacts {
+	@include flex(flex-start, space-evenly, 24px);
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin-block: 48px;
+
+	@include media($mobile-bp) {
+		margin-block: 24px;
+	}
+
+	&Inner {
+		@include flex($align: center, $gap: 16px);
+		max-width: 338px;
+		width: 100%;
+
+		@include media($mobile-bp) {
+			max-width: unset;
+		}
+
+		& dt {
+			font-weight: 600;
+			color: var(--bold-text);
+		}
+
+		& dd {
+			white-space: break-spaces;
+
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+	}
+}

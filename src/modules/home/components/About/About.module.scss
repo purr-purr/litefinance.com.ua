@@ -1,0 +1,22 @@
+.advantages {
+	@include flex(flex-start, space-evenly, 24px);
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin-block: 100px;
+
+	@include media($mobile-bp) {
+		margin-block: 50px;
+		gap: 24px;
+	}
+
+	&Item {
+		@include flex($align: center, $gap: 24px);
+		max-width: 338px;
+		width: 100%;
+
+		@include media($mobile-bp) {
+			gap: 12px;
+			max-width: unset;
+		}
+	}
+}

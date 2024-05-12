@@ -1,0 +1,51 @@
+.container {
+	@include flex($gap: 23px);
+	margin-bottom: 200px;
+
+	@include media($mobile-bp) {
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+}
+
+.title {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--bold-text);
+	width: 100%;
+
+	@include media($mobile-bp) {
+		font-size: 18px;
+	}
+}
+
+.leftSide {
+	width: 466px;
+	min-width: 466px;
+
+	@include media($mobile-bp) {
+		width: 100%;
+		min-width: unset;
+	}
+}
+
+.rightSide {
+	width: 100%;
+
+	strong {
+		color: var(--bold-text);
+	}
+
+	& > p {
+		margin-bottom: 1rem;
+	}
+
+	ul, ol {
+		padding-left: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	ul li::marker {
+		font-size: 10px;
+	}
+}

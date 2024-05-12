@@ -1,0 +1,19 @@
+.container {
+	border: none;
+	background-color: transparent;
+	width: 34px;
+	height: 34px;
+
+	@include media($laptop-bp) {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-right: -22px;
+		width: 74px;
+		position: relative;
+		z-index: 1;
+
+		img {
+			transform: scale(1.5);
+		}
+	}
+}

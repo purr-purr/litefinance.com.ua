@@ -1,0 +1,20 @@
+.container {
+	@include flex();
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	width: fit-content;
+	color: var(--bold-text);
+	text-decoration: none;
+
+	span {
+		font-weight: 700;
+		margin-left: 4px;
+	}
+
+	&:hover {
+		color: var(--blue);
+	}
+}
