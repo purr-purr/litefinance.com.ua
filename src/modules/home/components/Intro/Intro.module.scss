@@ -1,7 +1,7 @@
 .container {
 	@include flex(center, space-between, 29px);
 	padding-block: 200px 200px;
-	
+
 	@include media($mobile-bp) {
 		align-items: center;
 		flex-direction: column;
