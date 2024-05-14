@@ -20,8 +20,7 @@
 	color: var(--bold-text);
 	font-size: 20px;
 	font-weight: 600;
-	padding-block: 16px;
-	padding-left: 20px;
+	padding: 16px 20px;
 
 	@include media($mobile-bp) {
 		font-size: 18px;
@@ -44,10 +43,6 @@
 		opacity: 1;
 		transition: opacity 0.3s ease-in-out;
 	}
-}
-
-.title {
-
 }
 
 .content {
