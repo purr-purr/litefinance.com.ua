@@ -47,10 +47,6 @@ html {
 
 body {
 	color: var(--main-text);
-
-	@include media($mobile-bp) {
-		overflow-x: hidden;
-	}
 }
 
 body,
