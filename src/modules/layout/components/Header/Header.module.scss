@@ -18,7 +18,13 @@
 		bottom: 0;
 		width: 100vw;
 		height: 100%;
-		background-color: var(--main-bg);
+		background-color: transparent;
 		z-index: -1;
+		transition: background-color .2s ease-in-out;
+	}
+
+	&.active:after {
+		background-color: var(--main-bg);
+		transition: background-color .2s ease-in-out;
 	}
 }

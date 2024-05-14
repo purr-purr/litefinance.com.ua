@@ -7,5 +7,6 @@
 
 	@include media($mobile-bp) {
 		padding-inline: 20px;
+		overflow-x: hidden;
 	}
 }
