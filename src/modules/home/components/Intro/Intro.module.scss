@@ -28,7 +28,6 @@
 	&Title {
 		max-width: 564px;
 		font-size: 50px;
-		font-weight: 700;
 		text-transform: uppercase;
 		color: var(--bold-text);
 
@@ -39,12 +38,10 @@
 
 	&Desc {
 		max-width: 433px;
-		font-size: 14px;
 	}
 }
 
 .poster {
-	border-radius: 70px;
 	z-index: 1;
 
 	@include pseudo(before, true) {
@@ -65,9 +62,6 @@
 		max-width: 50%;
 	}
 
-	@include media($mobile-bp) {
-		border-radius: 40px;
-	}
 
 	img {
 		display: block;
