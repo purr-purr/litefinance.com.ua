@@ -11,7 +11,7 @@ module.exports = {
 	},
 	webpack: (config) => {
 		config.module.rules.push({
-			test: /\.pdf$|\.doc$|\.docx$/,
+			test: /\.pdf$|\.doc$|\.docx$|\.xls$/,
 			use: [
 				{
 					loader: 'file-loader',
@@ -22,7 +22,7 @@ module.exports = {
 				},
 			],
 		});
-
+		
 		return config;
 	},
 };

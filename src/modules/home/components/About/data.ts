@@ -8,7 +8,7 @@ import {importDoc} from "@utils/formatters";
 export const lendingDocumentsList: IDocumentsList[] = [
 	{
 		title: 'Базові умови, ціна/тарифи',
-		link: importDoc('Bazovi_umovy_KREDYT_SENT-PRO.pdf')
+		link: importDoc('4_Bazovi_umovy_KREDYT_-TOV_LAIT_FINANS.pdf')
 	}
 ]
 
