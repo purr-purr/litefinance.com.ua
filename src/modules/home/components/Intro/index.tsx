@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { COMPANY_CATCHPHRASE } from '@utils/const';
+
 import s from './Intro.module.scss';
 
 import INTRO_IMAGE from '@modules/home/assets/intro-poster.jpg';
@@ -9,16 +11,13 @@ const Intro = () => {
 		<section className={s.container}>
 			<article className={s.info}>
 				<h1 className={s.infoTitle}>
-					Перетворіть ваші <br/>
-					фінансові цілі у реальність
+					Фінансові рішення <br /> для вашого успіху.
 				</h1>
-				<p className={s.infoDesc}>
-					{`Місія ТОВ "ЛАЙТ ФІНАНС" - забезпечити наших клієнтів доступом до різноманітних фінансових рішень, що відповідають їхнім потребам та сприяють їхньому успіху.`}
-				</p>
+				<p className={s.infoDesc}>{COMPANY_CATCHPHRASE}</p>
 			</article>
 
 			<div className={s.poster}>
-				<Image src={INTRO_IMAGE} alt="Home intro"/>
+				<Image src={INTRO_IMAGE} alt="Home intro" />
 			</div>
 		</section>
 	);

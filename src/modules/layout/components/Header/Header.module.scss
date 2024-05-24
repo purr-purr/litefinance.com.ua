@@ -20,11 +20,11 @@
 		height: 100%;
 		background-color: transparent;
 		z-index: -1;
-		transition: background-color .2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
 	}
 
 	&.active:after {
 		background-color: var(--main-bg);
-		transition: background-color .2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
 	}
 }

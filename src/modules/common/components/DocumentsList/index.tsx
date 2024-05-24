@@ -1,19 +1,21 @@
-import {FC, Fragment} from 'react';
+import { FC, Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {v4 as uuidv4} from 'uuid';
+
+import { v4 as uuidv4 } from 'uuid';
+
+import type { IDocumentsList, IDocumentsListGroup } from '@utils/types';
 
 import DOCUMENT_ICON from '../../assets/document-icon.svg';
 import s from './DocumentsList.module.scss';
-import type {IDocumentsList, IDocumentsListGroup} from "@utils/types";
 
 type IDocumentsLoop = IDocumentsList[];
 
-const DocumentItem: FC<IDocumentsList> = ({title, link}) => {
+const DocumentItem: FC<IDocumentsList> = ({ title, link }) => {
 	return (
 		<li className={s.item}>
 			<Link href={link} target="_blank">
-				<Image src={DOCUMENT_ICON} alt="icon"/>
+				<Image src={DOCUMENT_ICON} alt="icon" />
 				{title}
 			</Link>
 		</li>
@@ -23,21 +25,17 @@ const DocumentItem: FC<IDocumentsList> = ({title, link}) => {
 const DocumentsList: FC<{
 	list?: IDocumentsList[];
 	groupList?: IDocumentsListGroup[];
-}> = ({list, groupList}) => {
+}> = ({ list, groupList }) => {
 	const uuid: string = uuidv4();
 
 	const listLoop = (array: IDocumentsLoop) => {
 		return (
 			<ul className={s.container}>
 				{array.map((item: IDocumentsList, index: number) => (
-					<DocumentItem
-						key={uuid + index}
-						title={item.title}
-						link={item.link}
-					/>
+					<DocumentItem key={uuid + index} title={item.title} link={item.link} />
 				))}
 			</ul>
-		)
+		);
 	};
 
 	return (
@@ -50,7 +48,7 @@ const DocumentsList: FC<{
 			))}
 			{list && listLoop(list)}
 		</>
-	)
+	);
 };
 
 export default DocumentsList;

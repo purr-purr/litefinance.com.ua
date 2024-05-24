@@ -1,1 +1,1 @@
-export const importDoc = (file: string): string => `/assets/documents/${file}`
+export const importDoc = (file: string): string => `/assets/documents/${file}`;

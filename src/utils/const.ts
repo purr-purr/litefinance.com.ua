@@ -3,9 +3,12 @@ export const APP_AUTHOR: string = 'Anton Shaposhnikov';
 export const APP_AUTHOR_SIGNATURE: string = 'Today Studio';
 export const APP_AUTHOR_WEBSITE: string = `https://today-studio.ie/`;
 export const APP_AUTHOR_FULL_SIGNATURE: string = `Website Developer: ${APP_AUTHOR} => ${APP_AUTHOR_WEBSITE} => shaposhnikov.web@gmail.com`;
-export const APP_LINK: string = '-';
+export const APP_LINK: string = 'https://litefinance.com.ua/';
 export const COMPANY_NAME: string[] = ['TOB', '“ЛАЙТ ФІНАНС”'];
 export const COMPANY_FULL_NAME: string = `${COMPANY_NAME[0]} ${COMPANY_NAME[1]}`;
+export const COMPANY_CATCHPHRASE: string =
+	'Наша місія - надати вам ефективні' +
+	' фінансові рішення, які сприятимуть вашому успіху в діловому та особистому житті.';
 export const COMPANY_PHONE: string = '+380914818839';
 export const COMPANY_EMAIL: string = 'litefinance@ukr.net';
 export const COMPANY_ADDRESS: string =
