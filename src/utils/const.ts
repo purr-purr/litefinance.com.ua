@@ -1,3 +1,4 @@
+export const MOBILE_BREAKPOINT: number = 1024;
 export const LAPTOP_BREAKPOINT: number = 1200;
 export const APP_AUTHOR: string = 'Anton Shaposhnikov';
 export const APP_AUTHOR_SIGNATURE: string = 'Today Studio';
