@@ -1,8 +1,8 @@
-# -
+# litefinance.com.ua
 
 #### `JavaScript / ReactJS / TypeScript / NextJS`
 
-# [https://-/](https://-/)
+# [https://litefinance.com.ua/](https://litefinance.com.ua/)
 
 ## Getting Started
 
@@ -28,9 +28,7 @@ result.
 Also use:
 
 - Scss
-- ftp-deploy
-- MUI
--
+- GitHub CI/CD
 
 ## Authors
 
