@@ -1,5 +1,5 @@
-import { importDoc } from '@utils/formatters';
-import { IDocumentsListGroup, type IDocumentsList } from '@utils/types';
+import {importDoc} from '@utils/formatters';
+import {type IDocumentsList, IDocumentsListGroup} from '@utils/types';
 
 export const innerRules: IDocumentsList[] = [
 	{
@@ -401,6 +401,15 @@ export const auditReports: IDocumentsList[] = [
 		title:
 			'Незалежний звіт з надання впевненості щодо річних звітних даних за 2022 рік',
 		link: importDoc('zvit-vpevn2022.pdf'),
+	},
+	{
+		title: 'Звітність аудитора за 2023 рік №1',
+		link: importDoc('zvit-vpevn2023.pdf'),
+	},
+	{
+		title:
+			'Звітність аудитора за 2023 рік №2',
+		link: importDoc('zvit-audit2023_2.pdf'),
 	},
 ];
 
