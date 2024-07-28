@@ -9,6 +9,7 @@
 	a {
 		@include flex($align: center);
 		text-decoration: none;
+		color: var(--bold-text);
 	}
 
 	img {

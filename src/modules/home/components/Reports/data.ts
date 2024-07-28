@@ -37,13 +37,13 @@ export const infoFinancialInstitution: IDocumentsList[] = [
 	},
 	{
 		title: 'Публічна інформація про ТОВ «ЛАЙТ ФІНАНС»',
-		link: importDoc('9_Publichna_informatsiia_pro_kompaniiu_TOV_LAIT_FINANS.pdf'),
+		link: importDoc('_Publichna informatsiia pro kompaniiu TOV LAIT FINANS.pdf'),
 	},
 	{
 		title:
 			'Інформація щодо ТОВ «ЛАЙТ ФІНАНС», умов та порядку діяльності, включно щодо фінансових послуг, які надаються ТОВ «ЛАЙТ ФІНАНС» клієнту',
 		link: importDoc(
-			'10_Informatsiia_shchodo_umov_ta_poriadku_diialnosti_TOV_LAIT_FINANS.pdf',
+			'_Informatsiia shchodo, umov ta poriadku diialnosti TOV LAIT FINANS.pdf',
 		),
 	},
 ];
@@ -372,6 +372,14 @@ export const archivedInformation: IDocumentsList[] = [
 			'Правила надання фінансових послуг з факторингу - Редакція, яка діяла до 10.04.2024 включно',
 		link: importDoc('pravyla_faktoryngLF.pdf'),
 	},
+	{
+		title:
+			' Порядок роботи із зверненнями громадян та захисту прав споживачів' +
+			' фінансових послуг ТОВ «ЛАЙТ ФІНАНС»',
+		link: importDoc(
+			'4.Poryadok_roboty_iz_zvernennyamy_gromadyan_TOV_LAIT_FINANS.pdf',
+		),
+	}
 ];
 
 export const auditReports: IDocumentsList[] = [
@@ -403,12 +411,12 @@ export const auditReports: IDocumentsList[] = [
 		link: importDoc('zvit-vpevn2022.pdf'),
 	},
 	{
-		title: 'Звітність аудитора за 2023 рік №1',
+		title: 'Звіт незалежного аудитора щодо фінансової звітності за 2023 рік',
 		link: importDoc('zvit-vpevn2023.pdf'),
 	},
 	{
 		title:
-			'Звітність аудитора за 2023 рік №2',
+			'Незалежний звіт з надання впевненості щодо річних даних за 2023 рік',
 		link: importDoc('zvit-audit2023_2.pdf'),
 	},
 ];
