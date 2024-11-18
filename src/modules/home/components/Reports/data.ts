@@ -5,25 +5,17 @@ export const innerRules: IDocumentsList[] = [
 	{
 		title: 'Кредити, чинні з 11.04.2024',
 		link: importDoc('3_PRAVYLA_koshtiv_ta_bank_met_kredyt_TOV_LAIT-_FINANS.pdf'),
-	},
-	{
-		title: 'Фінансовий лізинг, чинні з 11.04.2024',
-		link: importDoc('2_PRAVYLA_fin_lizynhu_TOV_LAIT_FINANS.pdf'),
-	},
-	{
-		title: 'Факторинг, чинні з 11.04.2024',
-		link: importDoc('1_PRAVYLA_faktorynhu_TOV_LAIT_FINANS.pdf'),
-	},
+	}
 ];
 
 export const infoFinancialInstitution: IDocumentsList[] = [
 	{
-		title: 'Свідоцтво про реєстрацію фінансової установи',
-		link: importDoc('svid-reestr.pdf'),
+		title: 'Витяг з Державного реєстру фінансових установ',
+		link: importDoc('Vytiah z derzhavnoho reiestru fin.ust..pdf'),
 	},
 	{
-		title: 'Витяг з Державного реєстру фінансових установ',
-		link: importDoc('8_TOV_LAIT_FINANS_vytyag.pdf'),
+		title: 'Свідоцтво про реєстрацію фінансової установи',
+		link: importDoc('svid-reestr.pdf'),
 	},
 	{
 		title: 'Розпорядження про видачу ліцензій',
@@ -37,13 +29,13 @@ export const infoFinancialInstitution: IDocumentsList[] = [
 	},
 	{
 		title: 'Публічна інформація про ТОВ «ЛАЙТ ФІНАНС»',
-		link: importDoc('_Publichna informatsiia pro kompaniiu TOV LAIT FINANS.pdf'),
+		link: importDoc('Publichna informatsiia pro kompaniiu.pdf'),
 	},
 	{
 		title:
 			'Інформація щодо ТОВ «ЛАЙТ ФІНАНС», умов та порядку діяльності, включно щодо фінансових послуг, які надаються ТОВ «ЛАЙТ ФІНАНС» клієнту',
 		link: importDoc(
-			'_Informatsiia shchodo, umov ta poriadku diialnosti TOV LAIT FINANS.pdf',
+			'Inform umov ta poriadku diialnosti.pdf',
 		),
 	},
 ];
@@ -203,6 +195,52 @@ export const infoOwnershipStructure: IDocumentsListGroup[] = [
 ];
 
 export const financeReports: IDocumentsListGroup[] = [
+	{
+		groupTitle: '2024',
+		list: [
+			{
+				title: 'Звіт про власний капітал за 9 місяців 2024р.',
+				link: importDoc('Звіт про власний капітал за 9 місяців 2024р.pdf'),
+			},
+			{
+				title: 'Баланс (Звіт про фінансовий стан) на 30 вересня 2024 р.',
+				link: importDoc('Баланс (Звіт про фінансовий стан) на 30 вересня 2024 р.pdf'),
+			},
+			{
+				title: 'Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р.',
+				link: importDoc('Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р..pdf'),
+			},
+			{
+				title: 'Звіт про рух грошових коштів 9 місяців 2024р',
+				link: importDoc('Звіт про рух грошових коштів 9 місяців 2024р.pdf'),
+			},
+			{
+				title: 'Примітки до фінансової звітності ТОВ Лайт Фінанс за 9' +
+					' місяців 2024',
+				link: importDoc('Примітки до фінансової звітності ТОВ Лайт Фінанс за 9 місяців 2024.pdf'),
+			}, {
+				title: 'Баланс (Звіт про фінансовий стан) на 30 червня 2024 р.',
+				link: importDoc('Баланс (Звіт про фінансовий стан) на 30 червня 2024 р..pdf'),
+			},
+			{
+				title: 'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р.',
+				link: importDoc('Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р..pdf'),
+			},
+			{
+				title: 'Звіт про рух грошових коштів 1 півріччя 2024',
+				link: importDoc('Звіт про рух грошових коштів 1 півріччя 2024.pdf'),
+			},
+			{
+				title: 'Звіт про власний капітал 1 півріччя 2024',
+				link: importDoc('Звіт про власний капітал 1 півріччя 2024.pdf'),
+			},
+			{
+				title: 'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1' +
+					' півріччя 2024',
+				link: importDoc('Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 півріччя 2024.pdf'),
+			},
+		],
+	},
 	{
 		groupTitle: '2023',
 		list: [
@@ -369,6 +407,23 @@ export const financeReports: IDocumentsListGroup[] = [
 ];
 
 export const archivedInformation: IDocumentsList[] = [
+	{
+		title: 'Витяг з Державного реєстру фінансових установ',
+		link: importDoc('8_TOV_LAIT_FINANS_vytyag.pdf'),
+	},
+	{
+		title:
+			'Базові умови, ціна та тарифи послуги з факторингу та лізингу',
+		link: importDoc('Tsiny taryfy lizynh ta faktorynh.pdf'),
+	},
+	{
+		title: 'Фінансовий лізинг, чинні з 11.04.2024',
+		link: importDoc('2_PRAVYLA_fin_lizynhu_TOV_LAIT_FINANS.pdf'),
+	},
+	{
+		title: 'Факторинг, чинні з 11.04.2024',
+		link: importDoc('1_PRAVYLA_faktorynhu_TOV_LAIT_FINANS.pdf'),
+	},
 	{
 		title:
 			'Правила надання коштів у позику, в тому числі і на умовах фінансового кредиту - Редакція, яка діяла до 14.06.2023 включно',
