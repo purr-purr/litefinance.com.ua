@@ -42,6 +42,26 @@ export const infoFinancialInstitution: IDocumentsList[] = [
 
 export const infoOwnershipStructure: IDocumentsListGroup[] = [
 	{
+		groupTitle: '2025',
+		list: [
+			{
+				title:
+					'Схематичне зображення структури власності ТОВ "ЛАЙТ ФІНАНС" станом на 01.01.2025',
+				link: importDoc('1_Struktura vlasnosti TOV LAIT FINANS na 01.01.2025.pdf'),
+			},
+			{
+				title:
+					'Відомості про остаточних ключових учасників у структурі власності надавача фінансових послуг ТОВ "ЛАЙТ ФІНАНС" станом на 01.01.2025',
+				link: importDoc('2_Vidomosti pro ost.k.uchasnykiv TOV LAIT FINANS na 01.01.2025.pdf'),
+			},
+			{
+				title:
+					'Відомості про власників істотної участі в надавачі фінансових послуг ТОВ "ЛАЙТ ФІНАНС" станом на 01.01.2025',
+				link: importDoc('3_Vidomosti pro vlasnykiv IU v TOV LAIT FINANS na 01.01.2025.pdf'),
+			}
+		],
+	},
+	{
 		groupTitle: '2024',
 		list: [
 			{
