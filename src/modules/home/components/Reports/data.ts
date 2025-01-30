@@ -1,11 +1,11 @@
-import {importDoc} from '@utils/formatters';
-import {type IDocumentsList, IDocumentsListGroup} from '@utils/types';
+import { importDoc } from '@utils/formatters';
+import { IDocumentsListGroup, type IDocumentsList } from '@utils/types';
 
 export const innerRules: IDocumentsList[] = [
 	{
 		title: 'Кредити, чинні з 11.04.2024',
 		link: importDoc('3_PRAVYLA_koshtiv_ta_bank_met_kredyt_TOV_LAIT-_FINANS.pdf'),
-	}
+	},
 ];
 
 export const infoFinancialInstitution: IDocumentsList[] = [
@@ -34,9 +34,7 @@ export const infoFinancialInstitution: IDocumentsList[] = [
 	{
 		title:
 			'Інформація щодо ТОВ «ЛАЙТ ФІНАНС», умов та порядку діяльності, включно щодо фінансових послуг, які надаються ТОВ «ЛАЙТ ФІНАНС» клієнту',
-		link: importDoc(
-			'Inform umov ta poriadku diialnosti.pdf',
-		),
+		link: importDoc('Inform umov ta poriadku diialnosti.pdf'),
 	},
 ];
 
@@ -52,13 +50,17 @@ export const infoOwnershipStructure: IDocumentsListGroup[] = [
 			{
 				title:
 					'Відомості про остаточних ключових учасників у структурі власності надавача фінансових послуг ТОВ "ЛАЙТ ФІНАНС" станом на 01.01.2025',
-				link: importDoc('2_Vidomosti pro ost.k.uchasnykiv TOV LAIT FINANS na 01.01.2025.pdf'),
+				link: importDoc(
+					'2_Vidomosti pro ost.k.uchasnykiv TOV LAIT FINANS na 01.01.2025.pdf',
+				),
 			},
 			{
 				title:
 					'Відомості про власників істотної участі в надавачі фінансових послуг ТОВ "ЛАЙТ ФІНАНС" станом на 01.01.2025',
-				link: importDoc('3_Vidomosti pro vlasnykiv IU v TOV LAIT FINANS na 01.01.2025.pdf'),
-			}
+				link: importDoc(
+					'3_Vidomosti pro vlasnykiv IU v TOV LAIT FINANS na 01.01.2025.pdf',
+				),
+			},
 		],
 	},
 	{
@@ -73,13 +75,17 @@ export const infoOwnershipStructure: IDocumentsListGroup[] = [
 				title:
 					'Відомості про остаточних ключових учасників у структурі власності надавача\n' +
 					' фінансових послуг ТОВ "ЛАЙТ ФІНАНС" станом на 04.10.2024',
-				link: importDoc('2.Vidomosti pro ostatochnykh kliuchovykh uchasnykiv TOV LAIT FINANS na 04.10.2024.pdf'),
+				link: importDoc(
+					'2.Vidomosti pro ostatochnykh kliuchovykh uchasnykiv TOV LAIT FINANS na 04.10.2024.pdf',
+				),
 			},
 			{
 				title:
 					'Відомості про власників істотної участі в надавачі фінансових послуг\n' +
 					' ТОВ "ЛАЙТ ФІНАНС" станом на 04.10.2024',
-				link: importDoc('3.Vidomosti pro vlasnykiv istotnoi uchasti TOV LAIT FINANS na 04.10.2024.pdf'),
+				link: importDoc(
+					'3.Vidomosti pro vlasnykiv istotnoi uchasti TOV LAIT FINANS na 04.10.2024.pdf',
+				),
 			},
 			{
 				title:
@@ -219,32 +225,72 @@ export const financeReports: IDocumentsListGroup[] = [
 		groupTitle: '2024',
 		list: [
 			{
+				title: 'Звіт про рух грошових коштів за 1 квартал 2024',
+				link: importDoc('Звіт про рух грошових коштів за 1 квартал 2024.pdf'),
+			},
+			{
+				title:
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 квартал 2024р',
+				link: importDoc(
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 квартал 2024р..pdf',
+				),
+			},
+			{
+				title: 'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 квартал 2024',
+				link: importDoc(
+					'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 квартал 2024.pdf',
+				),
+			},
+			{
+				title: 'Баланс (Звіт про фінансовий стан) на 31 березня 2024 р.',
+				link: importDoc(
+					'Баланс (Звіт про фінансовий стан) на 31 березня 2024 р..pdf',
+				),
+			},
+			{
+				title: 'Звіт про власний капітал за 1 квартал 2024',
+				link: importDoc('Звіт про власний капітал за 1 квартал 2024.pdf'),
+			},
+			{
 				title: 'Звіт про власний капітал за 9 місяців 2024р.',
 				link: importDoc('Звіт про власний капітал за 9 місяців 2024р.pdf'),
 			},
 			{
 				title: 'Баланс (Звіт про фінансовий стан) на 30 вересня 2024 р.',
-				link: importDoc('Баланс (Звіт про фінансовий стан) на 30 вересня 2024 р.pdf'),
+				link: importDoc(
+					'Баланс (Звіт про фінансовий стан) на 30 вересня 2024 р.pdf',
+				),
 			},
 			{
-				title: 'Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р.',
-				link: importDoc('Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р..pdf'),
+				title:
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р.',
+				link: importDoc(
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 9 місяців 2024р..pdf',
+				),
 			},
 			{
 				title: 'Звіт про рух грошових коштів 9 місяців 2024р',
 				link: importDoc('Звіт про рух грошових коштів 9 місяців 2024р.pdf'),
 			},
 			{
-				title: 'Примітки до фінансової звітності ТОВ Лайт Фінанс за 9' +
-					' місяців 2024',
-				link: importDoc('Примітки до фінансової звітності ТОВ Лайт Фінанс за 9 місяців 2024.pdf'),
-			}, {
-				title: 'Баланс (Звіт про фінансовий стан) на 30 червня 2024 р.',
-				link: importDoc('Баланс (Звіт про фінансовий стан) на 30 червня 2024 р..pdf'),
+				title:
+					'Примітки до фінансової звітності ТОВ Лайт Фінанс за 9' + ' місяців 2024',
+				link: importDoc(
+					'Примітки до фінансової звітності ТОВ Лайт Фінанс за 9 місяців 2024.pdf',
+				),
 			},
 			{
-				title: 'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р.',
-				link: importDoc('Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р..pdf'),
+				title: 'Баланс (Звіт про фінансовий стан) на 30 червня 2024 р.',
+				link: importDoc(
+					'Баланс (Звіт про фінансовий стан) на 30 червня 2024 р..pdf',
+				),
+			},
+			{
+				title:
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р.',
+				link: importDoc(
+					'Звіт про фінансові результати (Звіт про сукупний дохід) за 1 півріччя 2024р..pdf',
+				),
 			},
 			{
 				title: 'Звіт про рух грошових коштів 1 півріччя 2024',
@@ -255,9 +301,11 @@ export const financeReports: IDocumentsListGroup[] = [
 				link: importDoc('Звіт про власний капітал 1 півріччя 2024.pdf'),
 			},
 			{
-				title: 'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1' +
-					' півріччя 2024',
-				link: importDoc('Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 півріччя 2024.pdf'),
+				title:
+					'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1' + ' півріччя 2024',
+				link: importDoc(
+					'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 півріччя 2024.pdf',
+				),
 			},
 		],
 	},
@@ -432,8 +480,7 @@ export const archivedInformation: IDocumentsList[] = [
 		link: importDoc('8_TOV_LAIT_FINANS_vytyag.pdf'),
 	},
 	{
-		title:
-			'Базові умови, ціна та тарифи послуги з факторингу та лізингу',
+		title: 'Базові умови, ціна та тарифи послуги з факторингу та лізингу',
 		link: importDoc('Tsiny taryfy lizynh ta faktorynh.pdf'),
 	},
 	{
@@ -471,7 +518,7 @@ export const archivedInformation: IDocumentsList[] = [
 		link: importDoc(
 			'4.Poryadok_roboty_iz_zvernennyamy_gromadyan_TOV_LAIT_FINANS.pdf',
 		),
-	}
+	},
 ];
 
 export const auditReports: IDocumentsList[] = [
@@ -507,8 +554,7 @@ export const auditReports: IDocumentsList[] = [
 		link: importDoc('zvit-vpevn2023.pdf'),
 	},
 	{
-		title:
-			'Незалежний звіт з надання впевненості щодо річних даних за 2023 рік',
+		title: 'Незалежний звіт з надання впевненості щодо річних даних за 2023 рік',
 		link: importDoc('zvit-audit2023_2.pdf'),
 	},
 ];

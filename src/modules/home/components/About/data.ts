@@ -1,5 +1,5 @@
-import {importDoc} from '@utils/formatters';
-import type {IDocumentsList} from '@utils/types';
+import { importDoc } from '@utils/formatters';
+import type { IDocumentsList } from '@utils/types';
 
 import ICON_ANALYTICS from '@public/assets/icon-analytics.svg';
 import ICON_BUILDING from '@public/assets/icon-building.svg';
@@ -20,10 +20,10 @@ export const advantagesList = [
 			'Порушення провадження у справі про банкрутство,' +
 			' застосування процедури санації фінансової установи - відсутні',
 	},
-	{icon: ICON_BUILDING, desc: 'Товариство не має відокремлених підрозділів'},
+	{ icon: ICON_BUILDING, desc: 'Товариство не має відокремлених підрозділів' },
 	{
 		icon: ICON_ANALYTICS,
 		desc: 'Рішення про ліквідацію фінансової установи - не' + ' приймалось',
 	},
-	{icon: ICON_SECURITY, desc: 'Наглядова рада товариства - відсутня'},
+	{ icon: ICON_SECURITY, desc: 'Наглядова рада товариства - відсутня' },
 ];

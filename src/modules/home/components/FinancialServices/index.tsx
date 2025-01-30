@@ -1,7 +1,7 @@
 import Accordion from '@modules/common/components/Accordion';
 import DocumentsList from '@modules/common/components/DocumentsList';
 import SplitBlocks from '@modules/common/components/SplitBlocks';
-import {lendingDocumentsList} from '@modules/home/components/About/data';
+import { lendingDocumentsList } from '@modules/home/components/About/data';
 
 const HomeFinancialServices = () => {
 	return (
@@ -11,7 +11,7 @@ const HomeFinancialServices = () => {
 			anchor="fin-services"
 		>
 			<Accordion title="Кредитування">
-				<DocumentsList list={lendingDocumentsList}/>
+				<DocumentsList list={lendingDocumentsList} />
 			</Accordion>
 		</SplitBlocks>
 	);

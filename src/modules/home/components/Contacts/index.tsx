@@ -52,12 +52,12 @@ const Contacts = () => {
 
 	return (
 		<section className={s.container} id="contacts">
-			<BlockTitle title="Контактна інформація"/>
+			<BlockTitle title="Контактна інформація" />
 
 			<ul className={s.contacts}>
 				{contactsList.map((item) => (
 					<li key={item.title} className={s.contactsInner}>
-						<IconFrame icon={item.icon}/>
+						<IconFrame icon={item.icon} />
 						<dl>
 							<dt>{item.title}</dt>
 							<dd>
