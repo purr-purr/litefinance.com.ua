@@ -1,5 +1,5 @@
-import { importDoc } from '@utils/formatters';
-import { IDocumentsListGroup, type IDocumentsList } from '@utils/types';
+import {importDoc} from '@utils/formatters';
+import {type IDocumentsList, IDocumentsListGroup} from '@utils/types';
 
 export const innerRules: IDocumentsList[] = [
 	{
@@ -221,6 +221,31 @@ export const infoOwnershipStructure: IDocumentsListGroup[] = [
 ];
 
 export const financeReports: IDocumentsListGroup[] = [
+	{
+		groupTitle: '2025',
+		list: [
+			{
+				title: 'Баланс (Звіт про фінансовий стан) на 31 березня 2025р',
+				link: importDoc('Баланс (Звіт про фінансовий стан) на 31 березня 2025р..pdf'),
+			},
+			{
+				title: ' Звіт про власний капітал за I квартал 2025р',
+				link: importDoc('Звіт про власний капітал за I квартал 2025р..pdf'),
+			},
+			{
+				title: 'Звіт про рух грошових коштів (за прямим методом) за I квартал 2025р',
+				link: importDoc('Звіт про рух грошових коштів (за прямим методом) за I квартал 2025р..pdf '),
+			},
+			{
+				title: 'Звіт про фінансові результати (Звіт про сукупний дохід) за I квартал 2025р',
+				link: importDoc('Звіт про фінансові результати (Звіт про сукупний дохід) за I квартал 2025р..pdf '),
+			},
+			{
+				title: 'Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 квартал 2025р',
+				link: importDoc('Примітки до фінансової звітності ТОВ ЛАЙТ ФІНАНС за 1 квартал 2025р..pdf'),
+			},
+		],
+	},
 	{
 		groupTitle: '2024',
 		list: [
