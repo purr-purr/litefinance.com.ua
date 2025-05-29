@@ -577,6 +577,14 @@ export const archivedInformation: IDocumentsList[] = [
 
 export const auditReports: IDocumentsList[] = [
 	{
+		title: 'Звіт незалежного аудитора щодо фінансової звітності за 2024 рік',
+		link: importDoc('Звіт незалежного аудитора щодо фінансової звітності за 2024 рік.pdf'),
+	},
+	{
+		title: 'Звіт з надання впевненості щодо річних звітних даних за 2024 рік',
+		link: importDoc('Звіт з надання впевненості щодо річних звітних даних за 2024 рік.pdf'),
+	},
+	{
 		title: 'Звіт незалежного аудитора щодо фінансової звітності за 2020 рік',
 		link: importDoc('zvit-audit2020.pdf'),
 	},
